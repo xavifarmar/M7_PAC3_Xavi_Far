@@ -1,0 +1,98 @@
+/* Configuración del cuerpo */
+body {
+    display: block;
+    padding-top: 30px;
+    padding-inline: 60px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #FAFAFA;
+}
+
+/* Cabecera */
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 82px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+/* Subtítulo */
+.sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.sub-header h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.sub-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Caja de información */
+.box {
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: 600;
+    color: blue;
+}
+
+/* Botón de actualización */
+.boton-actualizar {
+    margin-top: 20px;
+}
+
+.boton-actualizar button {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: #3498DB;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-actualizar button:hover {
+    background-color: #2980B9;
+}

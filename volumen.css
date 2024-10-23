@@ -1,0 +1,211 @@
+ body {
+            margin: 0;
+            font-family: 'Inter', sans-serif; /* Asegúrate de tener la fuente Inter disponible */
+            background: #FAFAFA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+        }
+
+        .container {
+            margin-top: 70px ;
+            position: relative;
+            width: 1060px;
+            height: 444px;
+            background: #F6F3F3;
+            border-radius: 2px;
+            overflow: hidden;
+            border: 1px rgba(0, 0, 0, 0.10) solid;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .control {
+            background: #ABABAB;
+            position: absolute;
+        }
+        .control-bajo2:hover{
+            background-color: rgb(51, 255, 0);
+        }
+        .control-medio:hover{
+            background-color: rgb(255, 251, 0);
+        }
+        .control-alto:hover{
+            background-color: rgb(255, 217, 0);
+        }
+        .control-alto2:hover{
+            background-color: rgb(255, 187, 0);
+        }
+        .control-alto3:hover{
+            background-color: rgb(255, 0, 0);
+        }
+        .control-general:hover{
+            background-color: rgb(180, 0, 0);
+        }
+        .control-bajo {
+            width: 120px;
+            height: 26px;
+            left: 88px;
+            top: 241px;
+            background-color: green;
+        }
+        .control-bajo2 {
+            width: 120px;
+            height: 26px;
+            left: 88px;
+            top: 241px;
+        }
+
+        .control-medio {
+            width: 120px;
+            height: 39px;
+            left: 220px;
+            top: 228px;
+        }
+        
+        .control-alto {
+            width: 117px;
+            height: 160px;
+            left: 610px;
+            top: 108px;
+        }
+
+        .control-alto2 {
+            width: 117px;
+            height: 203px;
+            left: 746px;
+            top: 65px;
+        }
+
+        .control-alto3 {
+            width: 117px;
+            height: 137px;
+            left: 480px;
+            top: 131px;
+        }
+        .control-alto4 {
+            width: 117px;
+            height: 227px;
+            left: 880px;
+            top: 45px;
+        }
+
+        .control-general {
+            width: 120px;
+            height: 84px;
+            left: 348px;
+            top: 186px;
+        }
+
+        .header {
+            position: absolute;
+            top: 50px;
+            left: 89px;
+            color: #2C3E50;
+            font-size: 32px;
+            font-weight: 700;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+        }
+        h4{
+            margin-left:10px  ;
+        }
+        .description {
+            position: absolute;
+            top: 130px;
+            left: 420px;
+            width: 1065px;
+            color: #2C3E50;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .volume-title {
+            position: absolute;
+            left: 420px;
+            top: 205px;
+            color: #2C3E50;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .back-button {
+            position: absolute;
+            left: 677px;
+            top: 97px;
+            color: black;
+            font-size: 36px;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        .icon {
+            width: 57px;
+            height: 57px;
+            position: absolute;
+        }
+
+        .icon-bajo {
+            left: 51px;
+            top: 375px;
+        }
+
+        .icon-medio {
+            left: 510px;
+            top: 375px;
+        }
+
+        .icon-alto {
+            left: 955px;
+            top: 375px;
+        }
+
+        .labels {
+            position: absolute;
+            color: #2C3E50;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .label-bajo {
+            left: 57px;
+            top: 331px;
+        }
+
+        .label-medio {
+            left: 501px;
+            top: 331px;
+        }
+
+        .label-alto {
+            left: 965px;
+            top: 331px;
+        }
+
+        .nvl {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%; /* Asegúrate de que el contenedor ocupe el espacio completo */
+            max-width: 800px; /* Limitar el ancho máximo si es necesario */
+        }
+        
+        .niveles {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra el texto e imagen verticalmente */
+            text-align: center;  /* Para que el texto y la imagen queden centrados horizontalmente */
+        }
+        
+        .icon-volumen {
+            height: 40px;
+            margin-top: 10px; /* Añade espacio entre el título y la imagen */
+        }
+        
